@@ -8,4 +8,4 @@ O objetivo foi recriar a interface inicial da plataforma de streaming, garantind
 
 <br>
 
-<img src="...">
+<img src="https://github.com/luizzvianna/project-spotify/blob/master/assets/playlist/spot.jpg?raw=true">
