@@ -1,4 +1,4 @@
-const searchInput = document.getElementById('search-input');
+const searchInput = document.getElementById("search-input");
 const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');
 
@@ -11,8 +11,8 @@ function requestApi(searchTerm) {
 
 function displayResults(result) {
     resultPlaylist.classList.add("hidden")
-    const artistName = document.getElementById('artist-name');
-    const artistImage = document.getElementById('artist-img');
+    const artistName = document.getElementById("artist-name");
+    const artistImage = document.getElementById("artist-img");
 
     result.forEach(element => {
         artistName.innerText = element.name;
@@ -25,8 +25,8 @@ function displayResults(result) {
 document.addEventListener('input', function () {
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === '') {
-        resultPlaylist.classList.add('hidden');
-        resultArtist.classList.remove('hidden');
+        resultPlaylist.classList.add("hidden");
+        resultArtist.classList.remove("hidden");
         return
     }
     
